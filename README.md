@@ -11,6 +11,7 @@ Welcome to the Debian Non-GNOME Linux Bash Scripts repository! This collection o
 4. [Usage](#usage)
 5. [Contributing](#contributing)
 6. [License](#license)
+7. [Warning](#Warning)
 
 ## Introduction
 
@@ -18,7 +19,7 @@ Debian-based Linux distributions offer a stable and versatile foundation for var
 
 ## Scripts Overview
 
-### Script 1: Refresh.sh
+## Script 1: Refresh.sh
 
 The `Refresh.sh` script automates several maintenance tasks on a Linux system, enhancing performance and managing storage space. Here's a summary of its functionalities:
 
@@ -67,7 +68,7 @@ Note: Customize the script based on your preferences and specific system require
 
 Enjoy a refreshed and optimized Linux system!
 
-## WelcomeKit.sh - Streamline Your Fresh Linux Mint Installation
+## Script 2: WelcomeKit.sh - Streamline Your Fresh Linux Mint Installation
 
 This script, `WelcomeKit.sh`, aims to simplify the initial setup process for a new Linux Mint installation. It automates the installation of essential applications, tools, and configurations, getting you up and running quickly.
 
@@ -191,7 +192,7 @@ This repository is licensed under the [MIT License](LICENSE). Feel free to use, 
 
 Happy scripting and enjoy your non-GNOME Debian Pro experience!
 
-
+## Warning
 
 **Note:**
 These scripts are provided as-is and might include experimental or unstable features. Use them at your own risk. The maintainers of this repository take no responsibility for any damage or issues that may arise from the use of these scripts. Always review the scripts and understand their functionality before running them on your system. If in doubt, consult with a knowledgeable Linux user or system administrator. Proceed with caution.
