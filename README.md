@@ -137,13 +137,13 @@ This script, `WelcomeKit.sh`, aims to simplify the initial setup process for a n
 Note: Customize the script based on your preferences and specific system requirements.
 
 Enjoy a Happy Meal ;0 Linux system!
-   ```
+
 
 ### Script 3: Script_Name_3.sh
 
 Description of the second script and its purpose.
 
-...
+
 
 ### Script N: Script_Name_N.sh
 
@@ -190,7 +190,7 @@ Contributions to this repository are welcome! If you have a useful Bash script f
 This repository is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the scripts in accordance with the terms specified in the license.
 
 Happy scripting and enjoy your non-GNOME Debian Pro experience!
-```
+
 
 
 **Note:**
