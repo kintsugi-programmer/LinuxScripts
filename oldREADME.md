@@ -1,4 +1,3 @@
-```markdown
 # Debian Linux Bash Scripts Repository
 
 Welcome to the Debian Non-GNOME Linux Bash Scripts repository! This collection of scripts is designed to enhance and streamline the experience of users running Debian-based Linux distributions without the GNOME desktop environment. Whether you're a seasoned Linux user or a beginner, these scripts aim to simplify common tasks, automate processes, and customize your non-GNOME Debian system.
@@ -18,7 +17,7 @@ Debian-based Linux distributions offer a stable and versatile foundation for var
 
 ## Scripts Overview
 
-### Script 1: Refresh.sh
+### Script 1: [Refresh.sh]
 
 The `Refresh.sh` script automates several maintenance tasks on a Linux system, enhancing performance and managing storage space. Here's a summary of its functionalities:
 
@@ -52,16 +51,11 @@ The `Refresh.sh` script automates several maintenance tasks on a Linux system, e
 ## Usage
 
 1. Ensure the script has executable permissions:
-
    ```bash
    chmod +x Refresh.sh
-   ```
 
-2. Run the script:
-
-   ```bash
-   ./Refresh.sh
-   ```
+Run the script:
+./Refresh.sh
 
 Note: Customize the script based on your preferences and specific system requirements.
 
@@ -79,73 +73,48 @@ This script, `WelcomeKit.sh`, aims to simplify the initial setup process for a n
 * Installs popular browsers like Brave and Spotify.
 * Adds user to the `vboxusers` group for seamless VirtualBox interaction.
 
-#### Script Execution Steps
+Header and Message: It prints a header and a message to inform the user about the purpose of the script.
 
-1. **Header and Message:** 
-   - Prints a header and a message to inform the user about the purpose of the script.
+Update and Upgrade: It updates and upgrades the system using apt update and apt upgrade.
 
-2. **Update and Upgrade:** 
-   - Updates and upgrades the system using `apt update` and `apt upgrade`.
+Install Required Packages: It installs a list of required packages including neofetch, build-essential, Visual Studio Code, Git, curl, lolcat, htop, golang, qbittorrent, MySQL Server, Sublime Text, LibreOffice, pix, Audacious, Ghostwriter, GitHub Desktop, VirtualBox, VirtualBox Extension Pack, tree, fd-find, exa, duf, and cheese.
 
-3. **Install Required Packages:** 
-   - Installs a list of required packages including `neofetch`, `build-essential`, `Visual Studio Code`, `Git`, `curl`, `lolcat`, `htop`, `golang`, `qbittorrent`, `MySQL Server`, `Sublime Text`, `LibreOffice`, `pix`, `Audacious`, `Ghostwriter`, `GitHub Desktop`, `VirtualBox`, `VirtualBox Extension Pack`, `tree`, `fd-find`, `exa`, `duf`, and `cheese`.
+Install Specific Visual Studio Code Extensions: It installs specific extensions for Visual Studio Code.
 
-4. **Install Specific Visual Studio Code Extensions:** 
-   - Installs specific extensions for Visual Studio Code.
+Clone and Install auto-cpufreq: It clones the auto-cpufreq repository from GitHub and installs it.
 
-5. **Clone and Install auto-cpufreq:** 
-   - Clones the auto-cpufreq repository from GitHub and installs it.
+Install Brave Browser: It installs the Brave browser.
 
-6. **Install Brave Browser:** 
-   - Installs the Brave browser.
+Install Spotify: It installs Spotify.
 
-7. **Install Spotify:** 
-   - Installs Spotify.
+Install Sublime Text: It installs Sublime Text.
 
-8. **Install Sublime Text:** 
-   - Installs Sublime Text.
+Install tldr: It installs tldr (a command-line utility for displaying simplified and community-driven man pages).
 
-9. **Install tldr:** 
-   - Installs tldr (a command-line utility for displaying simplified and community-driven man pages).
+Install Node.js and npm: It installs Node.js and npm.
 
-10. **Install Node.js and npm:** 
-    - Installs Node.js and npm.
+Add User to vboxusers Group: It adds the current user to the vboxusers group.
 
-11. **Add User to vboxusers Group:** 
-    - Adds the current user to the vboxusers group.
+Final Message: It prints a final message.
 
-12. **Final Message:** 
-    - Prints a final message.
+Reboot System: It reboots the system.
 
-13. **Reboot System:** 
-    - Reboots the system.
+### Installation
 
-## Usage
+Before proceeding, ensure you have Git installed on your system.
 
-1. Ensure the script has executable permissions:
+1. **Clone the Repository:**
 
    ```bash
-   chmod +x WelcomeKit.sh
-   ```
+   git clone [https://github.com/your-username/debian-non-gnome-scripts.git](https://github.com/your-username/debian-non-gnome-scripts.git)
 
-2. Run the script:
-
-   ```bash
-   ./WelcomeKit.sh
-   ```
-
-Note: Customize the script based on your preferences and specific system requirements.
-
-Enjoy a Happy Meal ;0 Linux system!
-   ```
-
-### Script 3: Script_Name_3.sh
+### Script 3: [Script_Name_3.sh]
 
 Description of the second script and its purpose.
 
 ...
 
-### Script N: Script_Name_N.sh
+### Script N: [Script_Name_N.sh]
 
 Description of the Nth script and its purpose.
 
@@ -156,7 +125,7 @@ To get started with these scripts, follow these simple steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/kintsugi-programmer/LinuxScripts.git
+   git clone https://github.com/your-username/debian-non-gnome-scripts.git
    ```
 
 2. Navigate to the repository directory:
@@ -190,8 +159,6 @@ Contributions to this repository are welcome! If you have a useful Bash script f
 This repository is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the scripts in accordance with the terms specified in the license.
 
 Happy scripting and enjoy your non-GNOME Debian Pro experience!
-```
-
 
 **Note:**
 These scripts are provided as-is and might include experimental or unstable features. Use them at your own risk. The maintainers of this repository take no responsibility for any damage or issues that may arise from the use of these scripts. Always review the scripts and understand their functionality before running them on your system. If in doubt, consult with a knowledgeable Linux user or system administrator. Proceed with caution.

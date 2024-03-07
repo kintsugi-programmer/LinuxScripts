@@ -1,6 +1,6 @@
 #!/bin/bash
-# chmod +x Ref.sh
-# ./Ref.sh
+# chmod +x Refresh.sh
+# ./Refresh.sh
 
 # Update package manager and upgrade packages
 if command -v apt-get &> /dev/null; then
