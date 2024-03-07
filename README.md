@@ -177,7 +177,7 @@ To get started with these scripts, follow these simple steps:
 2. Navigate to the repository directory:
 
    ```bash
-   cd debian-non-gnome-scripts
+   cd LinucScripts/
    ```
 
 3. Make the scripts executable:
