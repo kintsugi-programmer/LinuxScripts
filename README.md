@@ -1,4 +1,4 @@
-```markdown
+
 # Debian Linux Bash Scripts Repository
 
 Welcome to the Debian Non-GNOME Linux Bash Scripts repository! This collection of scripts is designed to enhance and streamline the experience of users running Debian-based Linux distributions without the GNOME desktop environment. Whether you're a seasoned Linux user or a beginner, these scripts aim to simplify common tasks, automate processes, and customize your non-GNOME Debian system.
