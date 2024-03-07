@@ -80,6 +80,20 @@ This script, `WelcomeKit.sh`, aims to simplify the initial setup process for a n
 * Installs popular browsers like Brave and Spotify.
 * Adds user to the `vboxusers` group for seamless VirtualBox interaction.
 
+#### In-Depth
+- **System Update:** Updates and upgrades the system packages to ensure everything is up-to-date.
+- **Package Installation:** Installs a curated set of packages and tools for development, productivity, and entertainment.
+- **Visual Studio Code Setup:** Installs Visual Studio Code along with popular extensions for enhanced development experience.
+- **Auto-cpufreq:** Configures CPU frequency scaling for optimal performance and power efficiency.
+- **Brave Browser:** Adds Brave Browser repository and installs it for secure and private browsing.
+- **Sublime Text:** Adds Sublime Text repository and installs it for a sophisticated text editor experience.
+- **Spotify:** Adds Spotify repository and installs the official Spotify client for music streaming.
+- **Ghostwriter:** Installs the Ghostwriter application for distraction-free writing.
+- **VirtualBox:** Installs VirtualBox and its extension pack for virtualization needs.
+- **Node.js and npm:** Installs Node.js and npm for JavaScript development.
+- **Utilities:** Installs various utilities such as `htop`, `curl`, `git`, `lolcat`, `tldr`, `tree`, `fd-find`, `exa`, and more.
+- **User-friendly:** Provides clear feedback and instructions during the installation process.
+
 #### Script Execution Steps
 
 1. **Header and Message:** 
