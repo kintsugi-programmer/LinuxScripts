@@ -1,5 +1,22 @@
 #!/bin/bash
 
+# ASCII art
+echo "  ______ _ _         ____                        _              "
+echo " |  ____(_) |       / __ \                      (_)             "
+echo " | |__   _| | ___  | |  | |_ __ __ _  __ _ _ __  _ _______ _ __ "
+echo " |  __| | | |/ _ \ | |  | | '__/ _\` |/ _\` | '_ \| |_  / _ \ '__|"
+echo " | |    | | |  __/ | |__| | | | (_| | (_| | | | | |/ /  __/ |   "
+echo " |_|    |_|_|\___|  \____/|_|  \__, |\__,_|_| |_|_/___\___|_|   "
+echo "                                __/ |                          "
+echo "                               |___/                           "
+echo ""
+
+# Welcome message
+echo "Welcome by Kintsugi Programmer"
+echo "This bash script, `FileOrganizer.sh`, is designed to help you tidy up your files by organizing them into structured folders based on their file types or extensions. Whether you have a cluttered downloads folder or need to sort through various files, this script streamlines the process, making file organization effortless."
+
+# Rest of your script goes here...
+
 # Function to move files of a specific extension into a directory
 move_files() {
     category="$1"
