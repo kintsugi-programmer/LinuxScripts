@@ -19,7 +19,7 @@ Debian-based Linux distributions offer a stable and versatile foundation for var
 
 ## Scripts Overview
 
-## Script 1: Refresh.sh
+## Script 1: Refresh - Automate Maintainance of Your Linux Machine with Refresh.sh: Optimize, Clear, and Update for Peak Performance!
 
 The `Refresh.sh` script automates several maintenance tasks on a Linux system, enhancing performance and managing storage space. Here's a summary of its functionalities:
 
@@ -68,7 +68,7 @@ Note: Customize the script based on your preferences and specific system require
 
 Enjoy a refreshed and optimized Linux system!
 
-## Script 2: WelcomeKit.sh - Streamline Your Fresh Linux Mint Installation
+## Script 2: WelcomeKit - Streamline Your Fresh Linux Mint Installation
 
 This script, `WelcomeKit.sh`, aims to simplify the initial setup process for a new Linux Mint installation. It automates the installation of essential applications, tools, and configurations, getting you up and running quickly.
 
@@ -153,12 +153,60 @@ Note: Customize the script based on your preferences and specific system require
 
 Enjoy a Happy Meal ;0 Linux system!
 
+## Script 3: File Organizer Script - Organize Your Files with Ease
 
-### Script 3: Script_Name_3.sh
+This bash script, `FileOrganizer.sh`, is designed to help you tidy up your files by organizing them into structured folders based on their file types or extensions. Whether you have a cluttered downloads folder or need to sort through various files, this script streamlines the process, making file organization effortless.
 
-Description of the second script and its purpose.
+### Features
 
+* Quickly organizes files into folders named after their file formats.
+* Provides a menu-driven interface for easy selection of file types.
+* Includes options to organize files into predefined categories or by custom extensions.
+* Handles moving all files into a designated folder for comprehensive organization.
 
+#### In-Depth
+- **Menu-Driven Interface:** Offers a user-friendly menu interface for selecting file types to organize.
+- **Automatic Organization:** Moves files into appropriate folders based on their extensions for efficient file management.
+- **Predefined Categories:** Supports predefined categories for common file types like text, image, audio, video, compressed, programming, data, and web files.
+- **Custom Extension Handling:** Allows users to specify custom file extensions and organizes them into a dedicated "Custom" folder within the "Extensions" directory.
+- **Comprehensive Organization:** Provides an option to move all files into a folder for a thorough clean-up of the working directory.
+
+#### Script Execution Steps
+
+1. **Menu Display:** Displays a menu with options for organizing files based on predefined categories, custom extensions, or organizing all files.
+2. **File Organization:** Implements logic to move files into appropriate folders based on user-selected options or custom extensions.
+3. **User Input Handling:** Processes user input for selecting options or entering custom extensions.
+4. **Folder Creation:** Creates necessary directories and subdirectories for organizing files.
+5. **Error Handling:** Includes error handling mechanisms to ensure smooth execution and provide feedback to the user.
+
+#### Usage
+
+1. **Download the Script:**
+   - Download the `FileOrganizer.sh` script to your desired directory.
+
+2. **Set Permissions:**
+   - Ensure the script has executable permissions:
+     ```bash
+     chmod +x FileOrganizer.sh
+     ```
+
+3. **Run the Script:**
+   - Execute the script:
+     ```bash
+     ./FileOrganizer.sh
+     ```
+
+4. **Follow On-Screen Prompts:**
+   - Choose from the menu options to organize files based on predefined categories, custom extensions, or organize all files.
+
+5. **Enjoy Organized Files:**
+   - Sit back and let the script organize your files efficiently into structured folders.
+
+### Note
+- Customize the script according to your specific requirements or preferences.
+- Ensure that files to be organized are located in the same directory as the script for seamless execution.
+
+Effortlessly declutter your workspace with the File Organizer script, simplifying file organization for improved productivity!
 
 ### Script N: Script_Name_N.sh
 
