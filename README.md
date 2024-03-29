@@ -208,6 +208,34 @@ This bash script, `FileOrganizer.sh`, is designed to help you tidy up your files
 
 Effortlessly declutter your workspace with the File Organizer script, simplifying file organization for improved productivity!
 
+## Script 3: SQLinux - A Bash Script for MySQL Setup on Linux
+
+**SQLinux** is a convenient bash script designed to streamline the process of setting up and managing MySQL on Linux systems. Developed with love by *kintsugi-programmer*, this script simplifies various MySQL-related tasks, making it easier for developers and system administrators to work with this popular relational database management system.
+
+### Features
+
+- **Install MySQL:** The script can install the MySQL server and its dependencies on your Linux system with a single command.
+- **Uninstall MySQL:** If you need to remove MySQL from your system, SQLinux provides an option to uninstall the MySQL server, client, and common components, along with cleaning up related files and directories.
+- **Create MySQL Credentials:** You can create new MySQL user accounts with specified usernames and passwords using this script.
+- **Grant Privileges:** SQLinux allows you to grant all privileges to a specific MySQL user account on your system.
+- **Flush All Privileges:** In case you need to refresh and reload the privilege tables, the script provides an option to flush all MySQL privileges.
+- **Execute SQL Script:** You can execute SQL scripts on a specified database by providing the database name and the path to the SQL script file.
+- **Start/Stop MySQL Server:** The script offers convenient options to start or stop the MySQL server service on your Linux system.
+
+### Usage
+
+To use SQLinux, follow these steps:
+
+1. Clone the repository or download the script file.
+2. Navigate to the directory containing the script using the terminal.
+3. Make the script executable by running `chmod +x sqlinux.sh`.
+4. Execute the script with `./sqlinux.sh`.
+5. Follow the on-screen menu prompts to select the desired operation.
+
+**Note:** Remember to have the necessary permissions (*sudo*) to perform administrative tasks like installing, uninstalling, or managing MySQL on your system. Additionally, customize the script according to your specific requirements and preferences.
+
+SQLinux aims to simplify the MySQL setup process on Linux systems, providing a user-friendly interface and a centralized location for various MySQL-related tasks. Enjoy a streamlined MySQL experience with SQLinux!
+
 ### Script N: Script_Name_N.sh
 
 Description of the Nth script and its purpose.
