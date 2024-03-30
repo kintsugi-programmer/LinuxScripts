@@ -208,7 +208,7 @@ This bash script, `FileOrganizer.sh`, is designed to help you tidy up your files
 
 Effortlessly declutter your workspace with the File Organizer script, simplifying file organization for improved productivity!
 
-## Script 3: SQLinux - A Bash Script for MySQL Setup on Linux
+## Script 4: SQLinux - A Bash Script for MySQL Setup on Linux
 
 **SQLinux** is a convenient bash script designed to streamline the process of setting up and managing MySQL on Linux systems. Developed with love by *kintsugi-programmer*, this script simplifies various MySQL-related tasks, making it easier for developers and system administrators to work with this popular relational database management system.
 
